@@ -12,7 +12,8 @@
   font-size: 4.2rem;
   margin: 1rem 0;
 }
-.cta-content p, .cta-content #hi {
+.cta-content p,
+.cta-content #hi {
   margin-top: 2.5rem;
   font-size: 1.5rem;
 }
@@ -36,7 +37,7 @@
           user-select: none;
 }
 
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .cta {
     margin-top: 1rem;
     gap: 0;
@@ -47,6 +48,9 @@
   }
   .cta-content p {
     font-size: 1rem;
+  }
+  .cta-content__buttons {
+    margin-top: 2rem;
   }
   .cta-image img {
     border: 5px solid #2E2643;
@@ -78,21 +82,24 @@
   color: #FF8888;
 }
 
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .btn {
     padding: 1rem;
   }
 }
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body, html {
+body,
+html {
   box-sizing: inherit;
   background-color: #221D31;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
 }
 
@@ -110,18 +117,21 @@ ul li {
   display: inline-block;
 }
 
-header, main {
+header,
+main {
   min-width: 22rem;
   width: 55vw;
   margin: 0 auto;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   color: inherit;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-a:link:hover, a:visited:hover {
+a:link:hover,
+a:visited:hover {
   color: #FF8888;
 }
 
